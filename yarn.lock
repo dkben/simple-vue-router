@@ -8009,6 +8009,13 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
+vue-list-picker@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/vue-list-picker/-/vue-list-picker-0.1.2.tgz#e39a46b9e8a958e061ba12f5fa60227a076d5f3e"
+  integrity sha512-ryjEH6utriuZqWXAAM89sSXCmLsZdDewhDeyYaO4TN7NwDEXXswnKb2o3RcFn4+v5k8jdIddMLyUxV8tKYhkmA==
+  dependencies:
+    vue "^2.6.10"
+
 vue-loader@^15.7.0:
   version "15.7.1"
   resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.7.1.tgz#6ccacd4122aa80f69baaac08ff295a62e3aefcfd"
