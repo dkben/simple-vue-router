@@ -1,6 +1,6 @@
 <template>
     <div class="content-view">
-        內容區塊
+        固定內容區塊
     </div>
 </template>
 

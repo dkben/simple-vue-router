@@ -2,16 +2,20 @@
   <div id="app">
     <HeaderView></HeaderView>
 
+    <TabBarView></TabBarView>
+
+    <ContentView></ContentView>
+
     <router-view></router-view>
 
-    <TabBarView></TabBarView>
+    <FooterView></FooterView>
   </div>
 </template>
 
 <script>
   import HeaderView from './components/HeaderView/HeaderView.vue';
-  // import ContentView from './components/ContentView/ContentView.vue';
-  // import FooterView from './components/FooterView/FooterView.vue';
+  import ContentView from './components/ContentView/ContentView.vue';
+  import FooterView from './components/FooterView/FooterView.vue';
   import TabBarView from './components/TabBarView/TabBarView.vue';
 
 
@@ -19,8 +23,8 @@ export default {
   name: 'app',
   components: {
     HeaderView,
-    // ContentView,
-    // FooterView,
+    ContentView,
+    FooterView,
     TabBarView
   }
 }
