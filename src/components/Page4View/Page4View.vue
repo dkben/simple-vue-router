@@ -1,8 +1,8 @@
 <template>
     <div class="page-4-view">
         頁面 4
-        <div>
-            <b-card
+        <div class="card-data">
+            <b-card v-for="(item, index) in items" :key="index"
                     title="Card Title"
                     img-src="https://picsum.photos/600/300/?image=25"
                     img-alt="Image"
@@ -23,10 +23,18 @@
 
 <script>
     export default {
-        name: "Page4View"
+        name: "Page4View",
+        data() {
+            return {
+                items: [1, 2, 3, 4]
+            }
+        }
     }
 </script>
 
 <style scoped>
-
+    .card-data .card {
+        float: left;
+        margin-left: 20px;
+    }
 </style>
