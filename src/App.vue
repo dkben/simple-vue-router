@@ -1,17 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HeaderView></HeaderView>
+
+    <router-view></router-view>
+
+    <TabBarView></TabBarView>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import HeaderView from './components/HeaderView/HeaderView.vue';
+  // import ContentView from './components/ContentView/ContentView.vue';
+  // import FooterView from './components/FooterView/FooterView.vue';
+  import TabBarView from './components/TabBarView/TabBarView.vue';
+
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HeaderView,
+    // ContentView,
+    // FooterView,
+    TabBarView
   }
 }
 </script>

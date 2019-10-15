@@ -1,4 +1,4 @@
-# service
+# Simple Vue Router
 
 ## Project setup
 ```
