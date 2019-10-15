@@ -3,6 +3,7 @@ import Page1View from '@/components/Page1View/Page1View.vue'
 import Page2View from '@/components/Page2View/Page2View.vue'
 import Page3View from '@/components/Page3View/Page3View.vue'
 import Page4View from '@/components/Page4View/Page4View.vue'
+import Page5View from '@/components/Page5View/Page5View.vue'
 import VueRouter from "vue-router";
 
 var routers = [
@@ -29,7 +30,11 @@ var routers = [
     {
         path: '/page4',
         component: Page4View
-    }
+    },
+    {
+        path: '/page5',
+        component: Page5View
+    },
 ];
 
 export const router  = new VueRouter({

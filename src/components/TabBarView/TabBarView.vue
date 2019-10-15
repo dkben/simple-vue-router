@@ -5,6 +5,7 @@
         <router-link to='/page2'>頁面2</router-link>
         <router-link to='/page3'>頁面3</router-link>
         <router-link to='/page4'>頁面4</router-link>
+        <router-link to='/page5'>頁面5</router-link>
     </div>
 </template>
 
